@@ -63,10 +63,14 @@ var qoutes = [
 
 ]
 
+
+
 function Qoutes() {
 
-    document.getElementById("Quote").innerHTML = qoutes[Math.floor(Math.random() * qoutes.length)].qouteContent
-    document.getElementById("auther").innerHTML = qoutes[Math.floor(Math.random() * qoutes.length)].qouteAouther
+    var i = Math.floor(Math.random() * qoutes.length)
+    
+    document.getElementById("Quote").innerHTML = qoutes[i].qouteContent
+    document.getElementById("auther").innerHTML = qoutes[i].qouteAouther
 
 }
 
