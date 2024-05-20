@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quotes</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet" />
+  <!-- FavIcon -->
+  <link rel="shortcut icon" href="./images/images.png" type="image/x-icon">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="Css/bootstrap.min.css" />
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="Css/all.min.css" />
+  <!-- main style -->
+  <link rel="stylesheet" href="Css/style.css" />
+  <!-- media style -->
+  <link rel="stylesheet" href="Css/media.css" />
+</head>
+
+
+<body>
+
+  <h1 class="text-center fw-bolder my-5">Quote of the Day</h1>
+  <p class="text-center fs-1 mb-3">Press the button below to recieve a random quote!</p>
+
+  <div class="text-center">
+
+    <button class="btn mybtn p-4 fs-3 fw-bolder text-white my-4" onclick="Qoutes()"> Click To Quote </button>
+
+  </div>
+
+  <div id="Quote" class="w-75 m-auto"></div>
+  <div id="auther" class="w-75 m-auto"></div>
+
+  <script src="./Js/Main.js"></script>
+</body>
+
+</html>
